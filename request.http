@@ -1,0 +1,25 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+  "autor": "Arnoldo",
+  "title": "Tareas de hoy",
+  "text": "hola, mi tarea de hoy es..."
+}
+
+###
+DELETE http://localhost:9000/api/3 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/1 HTTP/1.1
+Content-Type: application/json
+
+{
+  "autor": "Arnoldo",
+  "title": "Tareas de hoy",
+  "text": "hola, mi tarea de hoy es..."
+} 
