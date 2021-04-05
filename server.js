@@ -5,7 +5,7 @@ const myconn = require('express-myconnection')
 const routes = require('./routes');
 
 const app = express();
-app.set('port', process.env.PORT || 9000);
+app.set('port', process.env.PORT || 8080);
 
 const dbOptions = {
   host: 'notesdb.cqtdygblynpw.us-east-2.rds.amazonaws.com',
