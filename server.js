@@ -21,7 +21,7 @@ app.use(express.json());
 
 //routes ---------------------------------------------------
 app.get('/', (req, res) => {
-  res.send("Oli");
+  res.send("Welcome to my notes api");
 })
 
 app.use('/api', routes);
